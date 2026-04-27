@@ -1,11 +1,11 @@
 Author: Bryce Campbell
 
-OpenGL Libraries not included in submission
+When I design software, I start by breaking the problem into smaller, understandable pieces and identifying the core requirements of the system. For this project, my goal was to recreate a real‑world scene in OpenGL, so I began by analyzing the reference image and deciding which objects, shapes, and lighting elements were essential. This helped me plan the structure of my program and choose the right techniques for modeling, shading, and rendering.
 
-Place shader and texture folders into Utilities folder in the same structure that the CS330Content folders use.
-Fragment Shader was updated to enable light attenuation and backlighting of surfaces.
+Working on this project strengthened several design skills, especially translating visual concepts into computational representations. I learned how to think in terms of geometry, transformations, and camera positioning, and how to design a scene so that each component fits together in a coherent 3D space. My design process involved sketching the scene, identifying reusable shapes, and planning out the rendering pipeline before writing code.
 
-If running the executable from the Debug folder, then there should be two occurrences of '../' in the loading of the textures and the shaders. 
-If running from the solution in VS Studio, there should be one occurrence of '../' in the loading of the textures and the shaders.
+These tactics—breaking down visuals into primitives, planning transformations, and iterating on lighting and camera placement—are approaches I can apply to future graphics or simulation work. They help ensure that I’m not just coding but intentionally designing the experience I want the program to create.
 
-When run this program will display a scene that is similar to the photo given in the project proposal in Module 2.
+When developing programs, I take an iterative approach: build a small piece, test it, refine it, and then move on. In this project, I used new development strategies such as incremental rendering, modularizing shader code, and testing transformations step‑by‑step to avoid compounding errors. Iteration played a major role; each milestone pushed me to refine the scene, improve realism, and reorganize my code for clarity and performance. Over time, my development approach became more structured, and I learned to rely more heavily on debugging tools, visual checks, and incremental improvements.
+
+Computer science supports my long‑term goals by giving me the ability to break down complex problems and build solutions that scale. Computational graphics and visualization, in particular, have given me new skills in spatial reasoning, mathematical modeling, and rendering techniques. These skills will help me in future coursework that involves simulation, modeling, or interactive systems. Professionally, understanding graphics pipelines, shaders, and 3D rendering opens doors to fields like game development, virtual reality, simulation engineering, and UI/UX visualization. This project showed me how technical problem‑solving and creativity come together, and those combined skills will be valuable in whatever path I pursue next.
